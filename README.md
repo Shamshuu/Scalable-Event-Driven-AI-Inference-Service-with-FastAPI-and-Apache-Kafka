@@ -1,0 +1,1 @@
+# Scalable-Event-Driven-AI-Inference-Service-with-FastAPI-and-Apache-Kafka
