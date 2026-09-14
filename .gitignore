@@ -1,0 +1,37 @@
+# Environment secrets and local overrides
+.env
+.env.*
+!.env.example
+
+# Python bytecode, virtual environments, and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local service data and logs
+postgres-data/
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
